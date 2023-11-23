@@ -1,0 +1,15 @@
+
+      <div >
+
+        <mat-form-field appearance="fill">
+          <mat-label>Enter a date</mat-label>
+          <input matInput [matDatepicker]="picker" [min]="minDate" [max]="maxDate">
+          <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-date-range-picker #picker></mat-date-range-picker>
+        </mat-form-field>
+
+
+
+      </div>
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.rentCar.AppTest
+-------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s - in com.mycompany.rentCar.AppTest
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.mycompany.rentCar.AppTest
+>>>>>>> 53d51eb9116caeca298cf60153d81584bf79484b

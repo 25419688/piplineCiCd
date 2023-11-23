@@ -1,0 +1,11 @@
+<form class="form-inline my-2 my-lg-0" id="search-form" style="display: none;">
+  <!-- <input class="form-control mr-sm-2 small" type="search" placeholder="Search" aria-label="Search" id="search-input"
+  (keydown)="onEnterSearch($event)"> -->
+  <!-- <input [(ngModel)]="searchTerm" class="form-control mr-sm-2 small" type="search" placeholder="Search" aria-label="Search" id="search-input" (keydown)="onEnterSearch($event)"> -->
+  <input #myInput  name="searchTerm" class="form-control mr-sm-2 small" type="text" placeholder="Search" aria-label="Search" id="search-input"
+  (keyup.enter)="doSearch(myInput.value)">
+
+  <!-- <button (click)="doSearch(myInput.value)" class="au-btn-submit" type="submit">
+    Search
+  </button> -->
+</form>
